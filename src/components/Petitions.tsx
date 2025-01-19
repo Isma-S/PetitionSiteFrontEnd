@@ -56,7 +56,7 @@ const PetitionList = () => {
     const [selectedSortOption, setSelectedSortOption] = useState<string>("");
     const [categories, setCategories] = useState<Categories[]>([]);
 
-    const apiURL = "http://localhost:4941/api/v1";
+    const apiURL = "https://petitionsitebackend-production.up.railway.app/api/v1";
 
     useEffect(() => {
         getPetitions();
